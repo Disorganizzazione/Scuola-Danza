@@ -1,0 +1,27 @@
+
+
+aside
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: dimgray;
+  width: 55px;
+}
+
+aside p
+{
+  border: solid;
+  width: 95%;
+}
+
+main
+{
+  border: solid;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 55px;
+}

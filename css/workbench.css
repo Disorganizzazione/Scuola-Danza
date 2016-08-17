@@ -1,0 +1,166 @@
+
+
+#search-monitor
+{
+  position: absolute;
+  border: solid;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+#search-monitor article
+{
+  border: solid;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-monitor article div
+{
+  height: 85%;
+  width: 30%;
+  margin: 2%;
+  border: solid;
+}
+
+#screen1 header
+{
+  position: absolute;
+  width: 100%;
+  top: 80%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#screen1 header div
+{
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+}
+
+
+#switch
+{
+  position: absolute;
+  background-color: black;
+  top: 0;
+  left: 0;
+  min-height: 30px;
+  min-width: 30px;
+}
+
+#screen2 header
+{
+  position: absolute;
+  border: solid;
+  top: 0;
+  left: 30px;
+  right: 0;
+  height: 30px;
+}
+
+
+#screen2 header p
+{
+  display: none;
+}
+
+#screen2 footer
+{
+  position: absolute;
+  border: solid;
+  top: 30px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.search, .work
+{
+  position: absolute;
+  display: none;
+  top: 1%;
+  left: 1%;
+  height: 98%;
+  width: 98%;
+  border: solid;
+}
+
+.ricerca-avanzata,.reset, .submit
+{
+  border: solid;
+  width: 30px;
+  height: 30px;
+}
+
+.iscritti.search
+{
+  overflow: auto;
+}
+
+
+.iscritti.search .reset
+{
+  float: right;
+}
+
+
+.iscritti.search table
+{
+  margin-top: 10px;
+}
+
+.iscritti.search table tr
+{
+  width: 100%;
+}
+
+.iscritti.search .table-label
+{
+  width: 25%;
+}
+
+.iscritti.search .table-input
+{
+  width: 75%;
+}
+
+.iscritti.search .avanzate
+{
+  display: none;
+}
+
+.pagamenti.search form
+{
+  width: 100%;
+  height: 100%;
+}
+
+.pagamenti.search .year
+{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+}
+
+.pagamenti.search .month
+{
+  height: 90%;
+  width: 30px;
+  border: solid;
+}

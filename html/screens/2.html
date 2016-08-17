@@ -1,0 +1,163 @@
+<p id = 'switch'></p>
+
+<header>
+  <p class = 'iscritti'> ISCRITTI </p>
+  <p class = 'corsi'> CORSI </p>
+  <p class = 'pagamenti'> PAGAMENTI </p>
+</header>
+
+<footer>
+  <div class='iscritti work'>
+    iscritti work
+  </div>
+  <div class='iscritti search'>
+  <!--form che contiene gli input per la ricerca sulla base dei dati anagrafici-->
+    <form>
+     <table>
+        <tr>
+          <td><p class = 'ricerca-avanzata'>ricerca avanzata</p></td>
+        </tr>
+        <tr>
+            <td class="table-label">Nome:</td>
+            <td class="table-input">
+                <input name = "nome" type="text" class = "form-control" placeholder="inserire nome...">
+            </td>
+        </tr>
+        <tr>
+            <td class="table-label">Cognome:</td>
+            <td class="table-input">
+                <input name = "cognome" type="text" class = "form-control" placeholder="inserire cognome...">
+            </td>
+        </tr>
+        <tr>
+            <td class="table-label">Data di nascita:</td>
+            <td class="table-input">
+                <input name = "DAY(data_nascita)" type="text" class = "form-control" placeholder="gg">
+                <p>/</p>
+                <input name = "MONTH(data_nascita)" type="text" class = "form-control"   placeholder="mm">
+                <p>/</p>
+                <input name = "YEAR(data_nascita)" type="text" class = "form-control"   placeholder="aaaa">
+            </td>
+        </tr>
+        <tr class = 'avanzate'>
+            <td class="table-label">Luogo di nascita:</td>
+            <td class="table-input">
+                <input name = "luogo_nascita" type="text" class = "form-control" placeholder="inserire...">
+            </td>
+        </tr>
+        <tr class = 'avanzate'>
+            <td class="table-label">Residenza:</td>
+            <td class="table-input">
+                <input name = "residenza" type="text" class = "form-control" placeholder="inserire...">
+            </td>
+        </tr>
+        <tr class = 'avanzate'>
+            <td class="table-label">CAP:</td>
+            <td class="table-input">
+                <input name = "CAP" type="text" class = "form-control" placeholder="inserire...">
+            </td>
+        </tr>
+        <tr class = 'avanzate'>
+            <td class="table-label">Provincia:</td>
+            <td class="table-input">
+                <input name = "provincia" type="text" class = "form-control" placeholder="inserire...">
+            </td>
+        </tr>
+        <tr class = 'avanzate'>
+            <td class="table-label">Indirizzo: </td>
+            <td class="table-input">
+                <p>via</p>
+                <input name = "via" type="text" class = "form-control" placeholder="inserire...">
+                <p>n°</p>
+                <input name = "n" type="text" class = "form-control"   placeholder="inserire...">
+            </td>
+        </tr>
+        <tr class = 'avanzate'>
+            <td class="table-label">email:</td>
+            <td class="table-input">
+                <input name = "email" type="text" class = "form-control" placeholder="inserire...">
+            </td>
+        </tr>
+        <tr class = 'avanzate'>
+            <td class="table-label">Telefono:</td>
+            <td class="table-input">
+                <input name = "telefono" type="text" class = "form-control" placeholder="inserire...">
+            </td>
+        </tr>
+        <tr>
+            <td class="table-label">Certificato medico:</td>
+            <td class="table-input">
+                <input type="radio" name="certificato_medico" value = 'true'>si<br>
+                <input type="radio" name="certificato_medico" value = 'false'>no<br>
+            </td>
+        </tr>
+        <tr class = 'avanzate'>
+            <td class="table-label">Numero di affiliazione:</td>
+            <td class="table-input">
+                <input name = "affiliazione" type="text" class = "form-control" placeholder="inserire...">
+            </td>
+        </tr>
+        <tr class = 'avanzate'>
+            <td class="table-label">Numero socio:</td>
+            <td class="table-input">
+                <input name = "socio" type="text" class = "form-control" placeholder="inserire...">
+            </td>
+        </tr>
+        <tr>
+            <td class="table-label">Tariffa:</td>
+            <td class="table-input">
+                <input name = "tariffa" type="text" class = "form-control" placeholder="inserire...">
+            </td>
+        </tr>
+        <tr>
+          <td><p class ='reset'>reset</p></td>
+        </tr>
+     </table>
+     <input type = 'submit' value="applica"></input>
+    </form>
+
+  </div>
+
+  <div class='corsi work'>
+    corsi work
+  </div>
+  <div class='corsi search'>
+    corsi search
+  </div>
+
+  <div class='pagamenti work'>
+    pagamenti work
+  </div>
+  <div class='pagamenti search'>
+
+    <form>
+      <label>
+        Anno:
+      </label>
+      <div class = 'year'>
+        <p name = 'rata_1' class='month' data-value = 'null'>
+        </p>
+        <p name = 'rata_2' class='month' data-value = 'null'>
+        </p>
+        <p name = 'rata_3' class='month' data-value = 'null'>
+        </p>
+        <p name = 'rata_4' class='month' data-value = 'null'>
+        </p>
+        <p name = 'rata_5' class='month' data-value = 'null'>
+        </p>
+        <p name = 'rata_6' class='month' data-value = 'null'>
+        </p>
+        <p name = 'rata_7' class='month' data-value = 'null'>
+        </p>
+        <p name = 'rata_8' class='month' data-value = 'null'>
+        </p>
+        <p name = 'rata_9' class='month' data-value = 'null'>
+        </p>
+      </div>
+      <p class ='reset'>reset</p>
+      <input type = 'submit' value="applica"></input>
+    </form>
+
+  </div>
+
+</footer>

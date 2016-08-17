@@ -1,0 +1,124 @@
+
+#vertical
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  left: 50%;
+  z-index: 1;
+}
+
+#vertical:hover
+{
+  cursor: col-resize;
+}
+
+#horizontal
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 3px;
+  top: 50%;
+  z-index: 1;
+}
+
+#horizontal:hover
+{
+  cursor: row-resize;
+}
+
+#corners
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+}
+
+#corner1, #corner2, #corner3, #corner4
+{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+
+#corner1
+{
+  right: 50%;
+  bottom: 50%;
+}
+
+#corner1:hover
+{
+  cursor: se-resize;
+}
+
+#corner2
+{
+  left: 50%;
+  bottom: 50%;
+}
+
+#corner2:hover
+{
+  cursor: sw-resize;
+}
+
+#corner3
+{
+  right: 50%;
+  top: 50%;
+}
+
+#corner3:hover
+{
+  cursor: ne-resize;
+}
+
+#corner4
+{
+  left: 50%;
+  top: 50%;
+}
+
+#corner4:hover
+{
+  cursor: nw-resize;
+}
+
+
+.screen-top, .screen-bottom
+{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.screen-top
+{
+  bottom: 50%;
+}
+
+.screen-right
+{
+  left: 50%;
+}
+
+.screen-bottom
+{
+  top: 50%;
+}
+
+.screen-left
+{
+  right: 50%;
+}

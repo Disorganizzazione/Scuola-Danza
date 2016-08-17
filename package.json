@@ -1,0 +1,15 @@
+{
+
+    "name": "databunny",
+    "main": "index.html",
+    "window":
+    {
+        "frame": true,
+        "toolbar": false,
+        "fullscreen":false,
+        "draggable": true,
+        "min_width": 650,
+        "min_height": 650
+    }
+
+}
